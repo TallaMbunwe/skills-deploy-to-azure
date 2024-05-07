@@ -10,7 +10,7 @@ export default class Game {
     this.player = Math.random() < 0.5 ? this.p1 : this.p2;
     this.sym = "X";
   }
-
+/// commenting this for testing purpose
   turn(row, col) {
     col = col || row;
     this.board[row][col] = this.sym;
