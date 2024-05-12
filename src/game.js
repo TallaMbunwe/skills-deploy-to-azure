@@ -10,7 +10,8 @@ export default class Game {
     this.player = Math.random() < 0.5 ? this.p1 : this.p2;
     this.sym = "X";
   }
-/// commenting this for testing purpose
+/// commenting this for testing purpose 
+/// Second testing for environment password
   turn(row, col) {
     col = col || row;
     this.board[row][col] = this.sym;
